@@ -1,0 +1,107 @@
+{
+  materials: [
+    {
+      name: '08 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Default Material_airbrush merged',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '07 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'BarrelExp_Diffuse1',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Barrel.FBX',
+    name: 'Barrel',
+    recenter: 'root',
+    scale: 0.52600999999999998,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\Default Material_airbrush merged.png',
+      name: 'Default Material_airbrush merged',
+      pipeline_name: 'barrelExp_paint-files\\Default Material_airbrush merged.png',
+    },
+    {
+      file: 'sampledata\\BarrelExp_Diffuse1.png',
+      name: 'BarrelExp_Diffuse1',
+      pipeline_name: 'BarrelExp_Diffuse1.png',
+    },
+  ],
+  version: '0.54:2',
+}
